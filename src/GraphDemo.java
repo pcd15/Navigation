@@ -9,14 +9,12 @@ import java.util.Scanner;
 
 /**
  * Demonstrates the calculation of shortest paths in the US Highway
- * network, showing the functionality of GraphProcessor and using
- * Visualize
- * @author King David
- * @author Apostle Paul
- * YESSIR we good
+ * network between two given cities, showcasing the functionality of GraphProcessor and using
+ * Visualize to illustrate the route on an image of the US
+ * 
+ * @author David Ntim
+ * @author Paul Dilly
  */
-
-//import java.util.*;
 
 public class GraphDemo {
 
@@ -27,18 +25,8 @@ public class GraphDemo {
         String name1 = input.nextLine();
         System.out.print("Enter the name of another city followed by its state's abbreviation, separated by a space (e.g., Durham NC): ");
         String name2 = input.nextLine();
-        /*System.out.println("Enter Latitude of City 1: ");
-        double lat1 = input.nextDouble();
-        System.out.println("Enter Longitude of City 1: ");
-        double lon1 = input.nextDouble();
-        System.out.println("Enter Latitude of City 2: ");
-        double lat2 = input.nextDouble();
-        System.out.println("Enter Longitude of City 2: ");
-        double lon2 = input.nextDouble();*/
         input.close();
         createCityMap("data/uscities.csv");
-        //Point city1 = new Point(lat1, lon1);
-        //Point city2 = new Point(lat2, lon2);
         GraphProcessor graph = new GraphProcessor();
         FileInputStream usa = new FileInputStream("data/usa.graph");
         graph.initialize(usa); 
