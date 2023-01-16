@@ -54,7 +54,7 @@ public class GraphDemo {
         System.out.println("Nearest point to " + name2 + ": " + nearest2);
         System.out.println("Shortest route from " + nearest1 + " to " + nearest2 + ": " + dist + " mi");
         System.out.println("Total time to get nearest points, route, and distance: " + ((after - before) / 1000000) + " ms");
-        Visualize vis = new Visualize("data/usa.vis", "images/usa.png");
+        Visualize vis = new Visualize("data/usa.vis", "data/usa.png");
         vis.drawRoute(shortestRoute);
     }
 
