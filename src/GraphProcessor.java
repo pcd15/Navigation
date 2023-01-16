@@ -6,8 +6,8 @@ import java.util.*;
 
 /**
  * Models a weighted graph of latitude-longitude points
- * and supports various distance and routing operations.
- * To do: Add your name(s) as additional authors
+ * and supports various distance and routing operations
+ *
  * @author Brandon Fain
  * @author David Ntim
  * @author Paul Dilly
@@ -21,8 +21,7 @@ public class GraphProcessor {
 
     /**
      * Creates and initializes a graph from a source data
-     * file in the .graph format. Should be called
-     * before any other methods work.
+     * file in the .graph format
      * @param file a FileInputStream of the .graph file
      * @throws Exception if file not found or error reading
      */
