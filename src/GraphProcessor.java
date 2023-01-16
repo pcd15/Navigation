@@ -57,7 +57,7 @@ public class GraphProcessor {
             counter++;
         }
         sc.close();
-
+    }
      /**
      * Searches for the point in the graph that is closest in
      * straight-line distance to the parameter point p
