@@ -1,3 +1,4 @@
 # Route Navigation
 
-### To view: 
+### To view the website: 
+1) Clone the repo link using SSH
